@@ -1,8 +1,8 @@
 #importo pymysql
-import pymysql
+"""import pymysql
 #creo la conexion
 conexion = pymysql.connect(host='localhost', user='root', password='', db='tiendamvc')
-"""try:
+try:
     with conexion.cursor() as cursor:
         #creo la consulta
         consulta = "SELECT * FROM customer"
@@ -19,7 +19,7 @@ except Exception as e:
     print("Ocurrió un error al consultar: ", e) 
 finally:
     conexion.close()
-    print("Conexion cerrada")   """
+    print("Conexion cerrada")   
 try:
     with conexion.cursor() as cursor:
         #creo la consulta
@@ -39,4 +39,4 @@ except Exception as e:
     print("Ocurrió un error al consultar: ", e) 
 finally:
     conexion.close()
-    print("Conexion cerrada")   
+    print("Conexion cerrada")   """
